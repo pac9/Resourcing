@@ -1,0 +1,35 @@
+/*
+Creator: Pauline Cairns
+Date: 11/03/2019
+Purpose: Page provides css for homepage
+*/
+
+
+/* Make login at top right hand corner */
+.right{
+    float:right;
+}
+
+/* Main title*/
+h1{
+    color: darkgoldenrod;
+    text-align: center;
+    letter-spacing: 0.1em;
+    font-size: 400%;
+    padding-top: 150px;
+}
+
+/* Subtitle*/
+.subtitle{
+    color: lightslategray;
+    text-align: center;
+}
+
+/* Image*/
+#banner {
+    background-image: url("../images/cover2.png");
+
+    background-repeat: no-repeat;
+    background-position: center;
+   height: 450px;
+}

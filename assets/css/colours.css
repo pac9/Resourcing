@@ -1,0 +1,19 @@
+header{
+    background-color: red;
+}
+
+nav{
+    background-color: yellow;
+}
+main{
+    background-color: greenyellow;
+}
+article{
+    background-color: green;
+}
+section{
+    background-color: blue;
+}
+footer {
+    background-color: purple;
+}

@@ -1,0 +1,98 @@
+/*
+Creator: Pauline Cairns
+Date: 11/03/2019
+Purpose: Page provides css general styling across the app
+*/
+
+/* no styling applied to nav items */
+nav>ul>li{
+    list-style-type: none;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.nav-item{
+    padding-right: 40px;
+}
+
+.navbar-text{
+    padding-right: 100px;
+}
+
+.navbar-text2{
+    width: 500px;
+    padding-right: 150px;
+}
+
+.connect{
+    float: right;
+    padding-right: 40px;
+
+}
+
+/* Forecast logo at top left of pages */
+.logo{
+    color: darkgoldenrod;
+    letter-spacing: 0.1em;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+/* Forecast styling when used inline */
+.forecast{
+    color: darkgoldenrod;
+}
+
+/* styling of pages */
+body{
+    background-color: #E7F4FF;
+    min-height: 100%;
+}
+
+
+h4{
+    color: lightslategray;
+}
+
+h3{
+    color: saddlebrown;
+}
+
+/* styling of boxes */
+.colour{
+    background-color: white;
+    border-left: 1px solid lightsteelblue;
+    border-right: 1px solid lightsteelblue;
+}
+.middle{
+ justify-items: center;
+}
+
+.drop{
+
+    padding-bottom: 30px;
+}
+
+.center{
+    text-align: center;
+}
+
+/* message on overview page if not head of school */
+.denied{
+    justify-content: center;
+}
+
+/*wording on login page re not signed in before */
+.small{
+    font-size: 11px;
+}
+
+
+/* footer not staying at bottom of page
+footer{
+   position: absolute;
+    bottom: 0;
+
+}*/
