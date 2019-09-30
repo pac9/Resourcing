@@ -1,0 +1,53 @@
+<!--
+Creator: Pauline Cairns
+Date: 11/03/2019
+Purpose: Input form for department related tasks
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,
+    shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Department task</title>
+
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/form.css">
+
+</head>
+<body>
+
+  <div class="container colour">
+
+<header>
+        <a href="../index.php"><h2 class="logo">FORECAST</h2></a>
+    </header>
+
+    <main>
+        <div class=" d-flex justify-content-center">
+        <br>
+        <form method="post" action="input_department_task.php">
+            <h1 class="forecast">Department task </h1>
+            <label>Task </label><br>
+            <textarea name="task" placeholder="action required" autofocus required></textarea><br><br>
+            <label>Notes/Status </label><br>
+            <textarea name="comments" placeholder="comments"></textarea><br><br>
+            <label>Deadline </label><br>
+            <input type="date" name="deadline" placeholder="deadline" required/> * Required<br><br>
+            <input type="submit" name="submit" value="Submit" />
+
+        </form>
+        </div>
+        <a href="../full_list.php"><p>Return to action list</p></a>
+    </main>
+
+  </div>
+
+</body>
+</html>
